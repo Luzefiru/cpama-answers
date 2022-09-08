@@ -18,7 +18,6 @@ int main(void)
 
     bills_1 = current_amount / 1;
 
-
     printf("$20 bills: %d\n", bills_20);
     printf("$10 bills: %d\n", bills_10);
     printf("$5 bills: %d\n", bills_5);
