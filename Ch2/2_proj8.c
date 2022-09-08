@@ -24,5 +24,6 @@ int main(void)
     paid_balance = loan - monthly_payment;
     loan = paid_balance + (loan * monthly_interest_rate);
     printf("Balance remaining after third payment: %.2f\n", loan);
-
+    
+    return 0;
 }
