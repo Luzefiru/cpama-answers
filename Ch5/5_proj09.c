@@ -14,7 +14,7 @@ int main(void)
     printf("Enter second date (mm/dd/yy): ");
     scanf("%d/%d/%d", &m2, &d2, &y2);
 
-    first_date_after = (y1 > y2 & y1 != y2) ? 1 : (m1 > m2 & m1 != m2) ? 1 : (d1 > d2);
+    first_date_after = (y1 > y2 && y1 != y2) ? 1 : (m1 > m2 && m1 != m2) ? 1 : (d1 > d2);
 
     if (!first_date_after)
     {
