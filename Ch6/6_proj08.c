@@ -11,6 +11,7 @@ int main(void)
 
     printf("Enter starting day of the week (1=Sun, 7=Sat): ");
     scanf("%d", &start);
+    printf("");
 
     // iterates through every day of the month while keeping track of the current_day of the week
     for (int i = 1, current_day = start; i <= num; i++, current_day++)
