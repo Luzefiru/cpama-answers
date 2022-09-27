@@ -16,8 +16,9 @@ int main(void)
         avg = (y + x/y)/2;
         if (fabs(y - avg) < 0.00001*y) break;
         y = avg;
-
     }
 
     printf("Square root: %lf", avg);
+
+    return 0;
 }
