@@ -26,5 +26,5 @@ int main(void)
         n1 = value; // makes n1 the value resulted from the old n1 & n2
     }
     
-    printf("Value of expression: %.2f", value);
+    printf("Value of expression: %.1f", value);
 }
