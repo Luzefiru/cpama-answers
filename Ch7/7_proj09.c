@@ -7,7 +7,7 @@ int main(void)
     int hr, min;
     char time_of_day;
 
-    printf("Etner a 12-hour time (HH:MM XX): ");
+    printf("Enter a 12-hour time (HH:MM XX): ");
     scanf("%d:%d %cM", &hr, &min, &time_of_day);
 
     printf("Equivalent 24-hour time: %.2d:%.2d",
