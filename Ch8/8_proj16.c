@@ -14,7 +14,7 @@ int main(void)
 
     /* asks for the first word & adds each letter to the histogram */
     printf("Enter first word: ");
-    for (; (inp = getchar()) != '\n';)
+    for (;(inp = getchar()) != '\n';)
     {
         if (!isalpha(inp)) continue; // skips non alphabetic characters
         histogram[tolower(inp) - 97] += 1; // adds the letter
