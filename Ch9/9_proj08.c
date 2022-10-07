@@ -55,7 +55,7 @@ int roll_dice(void)
 /**
  * @brief plays a game of craps until the player wins or loses
  * 
- * @return {bool} 1 if the player wins, 0 if the player loses
+ * @return {bool} : 1 if the player wins, 0 if the player loses
  */
 bool play_game(void)
 {
