@@ -33,7 +33,10 @@ int main(void)
         keep_playing = (toupper(inp) == 'Y') ? 1 : 0;
     }
 
+    /* displays the result when the user stops playing*/
     printf("\nWins: %d\t Loses: %d", wins, loses);
+
+    exit(EXIT_SUCCESS);
 }
 
 /**
@@ -59,7 +62,7 @@ bool play_game(void)
     int roll = roll_dice(), point;
     printf("You rolled %d\n", roll);
 
-    /* first roll */
+    /* first roll, sets the "point" if the roll does not win/lose */
     switch (roll)
     {
         case 7: case 11:
@@ -93,5 +96,5 @@ bool play_game(void)
         else continue;
     }
 
-    exit(EXIT_FAILURE); // this should never be reached, exit program if it does
+    exit(EXIT_FAILURE); // this should NEVER be reached, exit program if it does
 }
