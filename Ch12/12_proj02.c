@@ -20,7 +20,6 @@ int main(void)
     /* checks if each character from the end matches the start until they overlap */
     for (char *q = input_array; --p >= input_array; q++)
     {
-        printf("%c %c\n", *q, *p);
         if (*q != *p)
             is_palindrome = 0;
     }
