@@ -32,7 +32,7 @@ void get_extension(const char *file_name, char *extension) // my answer
     {
         if (*p == '\0')
         {
-            strcpy(extension, "\0");
+            strcpy(extension, "");
             return;
         }
     }
