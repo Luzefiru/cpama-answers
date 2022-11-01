@@ -1,22 +1,19 @@
 #include <stdio.h>
 #include <string.h>
-#include <stdbool.h>
 
 #define MAX_STR_LEN 64
 
 int main(void)
 {
-    char smallest_word[MAX_STR_LEN], largest_word[MAX_STR_LEN], current_word[MAX_STR_LEN];
-    bool flag_firstInput = 1;
+    char smallest_word[MAX_STR_LEN] = "", largest_word[MAX_STR_LEN] = "", current_word[MAX_STR_LEN];
 
     do
     {
         printf("Enter word: ");
         scanf("%s", current_word);
 
-        if (flag_firstInput)
+        if (*smallest_word == 0 && *largest_word == 0)
         {
-            flag_firstInput = 0;
             strcpy(largest_word, strcpy(smallest_word, current_word));
         }
         
