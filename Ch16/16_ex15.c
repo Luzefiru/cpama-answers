@@ -1,0 +1,9 @@
+enum day_of_the_week
+{
+    SUNDAY, MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY
+};
+
+typedef enum day_of_the_week
+{
+    SUNDAY, MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY
+} DayOfTheWeek;
