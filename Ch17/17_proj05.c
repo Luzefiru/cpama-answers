@@ -28,7 +28,6 @@ int main(void)
     qsort(str_array, max, sizeof(char *), compareWords);
 
     /* prints the array starting from index 0 */
-    
     for (int j = 0; j < max; j++)
     {
         printf("%s\n", str_array[j]);
